@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+      <div class="textw">SIGN IN</div>
       <label for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -19,11 +19,13 @@
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
-    </div>
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign In</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
+   
     </div>
   </body>
 </html>

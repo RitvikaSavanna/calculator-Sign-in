@@ -24,7 +24,12 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-  
+.textw {
+  color:black;
+  font-size: 30px;
+  text-align: center;
+}
+ 
  .container {
   padding: 16px;
 
@@ -52,4 +57,23 @@ input[type=text]:focus, input[type=password]:focus {
     animation: animatezoom 0.6s
   }
   
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
   
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
